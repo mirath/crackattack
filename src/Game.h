@@ -219,9 +219,9 @@ using namespace std;
 #define GC_PAUSE_KEY                     ('p')
 
 // other crap
-#ifndef max
-#  define max(a, b)                      ((a) > (b) ? (a) : (b))
-#endif
+//#ifndef max
+//#  define max(a, b)                      (((a) > (b)) ? (a) : (b))
+//#endif
 
 // insure that our communication int is the same length on all machines
 #if (INT_MAX == 2147483647)

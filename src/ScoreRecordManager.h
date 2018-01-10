@@ -35,7 +35,7 @@ public:
     gameFinish_inline_split_();
   }
 
-  static inline void ScoreRecordManager::timeStep (   )
+  static inline void timeStep (   )
   {
     if (!(MetaState::mode & CM_SOLO)) return;
     if (!WinRecord::won) return;
@@ -44,7 +44,7 @@ public:
     timeStep_inline_split_();
   }
 
-  static inline GLubyte *ScoreRecordManager::chooseTexture ( int rank )
+  static inline GLubyte *chooseTexture ( int rank )
   {
     if (rank > Score::player_rank)
       return Displayer::record_texture_data[rank - 1];

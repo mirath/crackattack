@@ -1,6 +1,7 @@
 #ifndef TEXTURELOADER_H
 #define TEXTURELOADER_H
 
+#include <string.h>
 #include <GL/glut.h>
 
 #ifndef _WIN32
