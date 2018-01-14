@@ -6,3 +6,8 @@ Makefile
 config.*
 src/stamp-h
 src/crack-attack
+confdefs.h
+
+src/.vs/
+*.sln
+*.vcxproj*
